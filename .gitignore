@@ -1,0 +1,41 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C++ build
+build/
+dist/
+*.o
+*.a
+*.so
+cmake_build/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data
+data/*.csv
+data/*.feather
+*.parquet
+
+# Cache
+.pytest_cache/
+.cache/
+
+# Virtual env
+venv/
+env/
+
+# Logs
+*.log
+
+# Output
+output/
+results/
